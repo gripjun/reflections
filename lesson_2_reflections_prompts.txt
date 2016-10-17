@@ -6,3 +6,23 @@ How is the staging area different from the working directory and the repository?
 
 Pick files that have some modification which is appropriate to be commited. That will be in the staging area. The repository is a group of commits.
 The working directory is where the change happens. Staging area is where a commit is made by modified or made files in the working directory.
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+I can collect the changes that are thought to be logically glued together and make them one commit in the staging area. Manipulating changes in working directory is done in new playground, staging area.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+Regular basis code keep tracked on the master branch. However, if I have some experimental thought about current structure or functions and want to add it, then I can make new branch and do some stuff on it. It don't affect to master branch and regular version will be growing further regardless of experimental branch.
+
+How do the diagrams help you visualize the branch structure?
+
+A bunch of commits have structure that stem from init commit to each branch. It is possible to see which commit has parent or child of other commit and entire history of commit will be shown on the diagrams.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+We do some jobs for making the product represent certain status. Label it to a branch and the branch can be put together with main branch. We want to track what changes come to history, so drawing the diagram is needed.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Automatic merging make a merging process smooth and easy to do, but sometimes it can do unintentional commit that author didn't want to. On the other hand, doing merges manually all the time check whether there are unnecessary, so there won't be mistake unkown to person who do merge. Instead merging process takes lots of time and efforts than automatic merging.
