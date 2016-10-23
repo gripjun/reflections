@@ -7,3 +7,8 @@ Why might you want to always pull changes manually rather than having Git automa
 I can think of one case like I pull remote repository that someone else made and I want to make a change to it. In this case,
 once I downloaded it and edited, I do not want to simply get modification from original. I will do my own modification to it. Therefore
 I won't use automatic pull from remote repository.
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+Branch is tagging on the commit in a repository. Clone copies commits and commit history into one repository from source respository. It could be local to local or github to local. Fork is special function that github give us for cloning a repository in other person's github to another in your github.
+Fork exist because you don't have a permission to change someone else's repository.
