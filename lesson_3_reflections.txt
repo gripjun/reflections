@@ -24,3 +24,8 @@ How would you collaborate without using Git or GitHub? What would be easier, and
 In that case, I have to distribute who do what before we get to work and prevent duplicate work on the same target. It would be not easy to do experiment
 on the repository without Git and Github. Without Git and Github, I do not see the change on source code from other team member until I contact them and
 ask action to update their work. It would be harder than with Git and Github.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+Making different branch from master and pulling and pushing between master branch and other branch is tricky when it comes to the interaction with
+local and remote repository. However a seperate branch make it sure to build something safe with master branch without touching it directly.
