@@ -18,3 +18,9 @@ What is the benefit of having a copy of the last known state of the remote store
 I can play with the source code or whatever was in the last known status of the remote and I could keep it for my work or push it to the remote.
 If it broke, I still have working version on the remote, so I have confident to play with it, and if something is done on the local version.
 I push it to the remote and integrate it with the remote version.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+In that case, I have to distribute who do what before we get to work and prevent duplicate work on the same target. It would be not easy to do experiment
+on the repository without Git and Github. Without Git and Github, I do not see the change on source code from other team member until I contact them and
+ask action to update their work. It would be harder than with Git and Github.
